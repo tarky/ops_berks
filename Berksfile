@@ -1,3 +1,3 @@
 source "https://supermarket.getchef.com"
 
-cookbook "postgresql"
+cookbook 'database'
