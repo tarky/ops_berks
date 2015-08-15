@@ -1,3 +1,3 @@
-source "https://supermarket.getchef.com"
+source "https://supermarket.chef.io"
 
-cookbook 'postgresql'
+cookbook 'opsworks-export-envs', git: 'https://github.com/OpsRockin/opsworks-export-envs.git'
