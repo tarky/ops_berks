@@ -7,6 +7,5 @@ execute 'whenever' do
   command "bundle exec whenever --update-cron -f config/schedule_check.rb"
   environment env_hash.merge(RAILS_ENV: rails_env)
   user 'deploy'
-  group 'nginx'
 end
 
